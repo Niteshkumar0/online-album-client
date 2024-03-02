@@ -1,0 +1,41 @@
+
+.container{
+    width: 100%;
+    /* background-color:rgb(178, 178, 223); */
+    background-color: transparent;
+    border: 1px solid rgb(168, 162, 162);
+    opacity:1;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 65px;
+    font-size: 1.2rem;
+    align-items: center;
+    margin-top: 0;    
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    box-shadow: 1px 1px 7px 1px rgb(82, 80, 80);
+}
+
+.logo{
+    font-size: 1.9rem;
+    text-shadow: 1px 1px 5px  rgb(39, 39, 39);
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.logo .Link1{
+    text-decoration: none;
+    color: wheat;
+}
+
+ .Link{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+ }

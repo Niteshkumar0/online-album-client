@@ -1,0 +1,42 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgb(255, 255, 180);
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    
+}
+.container .pic{
+    width: 47%;
+    height: 85%;
+    box-shadow: 1px 1px 8px 3px wheat;
+}
+
+.container .innerContainer button{
+    margin: 1.2rem 3rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    display:block;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.container div img{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-bottom: 0.2rem;
+}

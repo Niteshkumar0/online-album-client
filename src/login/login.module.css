@@ -1,0 +1,67 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color:#f0f0db;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mainHeading{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+.formContainer{
+    border: 1px solid rgb(143, 135, 135);
+    background-color: rgb(223, 223, 223);
+    border-radius: 6px;
+    padding: 18px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 350px;
+}
+
+.formContainer div{
+   margin: 10px 0;
+}
+.formContainer div label{
+    display: block;
+    padding-left: 5px;
+    font-size: 1.1rem;
+}
+
+.formContainer div input {
+    border: 0.3px solid rgb(155, 149, 149);
+    height: 45px;
+    font-size: 1.2rem;
+    width: 250px;
+    padding-left: 10px;
+}
+.btn{
+    /* border: 1px solid; */
+    background-color: #808080;
+    border-radius: 7px;
+    margin-top:7px;
+    height: 35px;
+    width: 250px;
+    margin-bottom: 8px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.login{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.login .loginLink{
+    font-weight: 700;
+    color: blue;
+    text-decoration: underline;
+    font-size: 1.1rem;
+    margin-left: 0.1rem;
+}
